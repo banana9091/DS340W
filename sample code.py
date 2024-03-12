@@ -12,6 +12,7 @@ from tensorflow.keras.layers import Dense, Dropout, LSTM
 from tensorflow.keras.callbacks import ModelCheckpoint, EarlyStopping
 
 df = pd.read_csv('/Users/siheonjung/Desktop/psu/spring 2024/ds340w/1/preprocessed_CAC40.csv', parse_dates=['Date'])
+############# File path must be modified ##############
 
 def load_data(company, start, end):
     """
